@@ -7,7 +7,9 @@ local md5List = require('md5List')
 compareItem = {}
 
 function compareItem.caculateMd5(fileLoc)
-	MD5 = md5.sumhexa(fileLoc)
+	local file = io.open(fileLoc)
+	local content = file:read('*a') 
+	local MD5 = md5.sumhexa(content)
 	return MD5
 end
 
