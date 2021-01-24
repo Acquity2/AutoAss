@@ -1,0 +1,10 @@
+local md5 = require('md5')
+local io = require('io')
+	
+	file = io.open('/tmp/fullItemList.xml','r')
+	content = file:read('*a')
+	A = md5.sumhexa(content)
+	file = io.open('/tmp/result.md5','w')
+	file:write(A)
+	file:close()
+print('Saved in /tmp/result.md5')
