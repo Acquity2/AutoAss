@@ -1,6 +1,8 @@
 local md5 = require('md5')
 local io = require('io')
+local getItemInInventory_function = require('getItemInInventory_function')
 	
+	getItemInInventory_function.writeToFile("/tmp/fullItemList.xml",3,sides.down)
 	file = io.open('/tmp/fullItemList.xml','r')
 	content = file:read('*a')
 	A = md5.sumhexa(content)
