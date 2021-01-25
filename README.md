@@ -14,7 +14,7 @@
 ***
 需要注意的文件
 ----
-md5List -- 一个table，存储了key与对应的md5值
-[^*例子： md5List[1] = f13f3531e58bd60f5bb8e553edf92461 为luv马达前三个物品计算出的值，因此luv马达对应的key值就是1。*]
-*例子： md5List[1] = f13f3531e58bd60f5bb8e553edf92461 为luv马达前三个物品计算出的值，因此luv马达对应的key值就是1。*
+md5List -- 一个table，存储了key与对应的md5值[^注]
+
+[^注]*例子： md5List[1] = f13f3531e58bd60f5bb8e553edf92461 为luv马达前三个物品计算出的值，因此luv马达对应的key值就是1。*
 
