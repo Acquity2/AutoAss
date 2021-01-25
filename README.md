@@ -16,23 +16,23 @@
 ----
 * md5List -- 一个顺序table，存储了key与对应的md5值
 
-  *例子： md5List[1] = f13f3531e58bd60f5bb8e553edf92461 为luv马达前三个物品计算出的值，因此luv马达对应的key值就是1。*
+  	*例子： md5List[1] = f13f3531e58bd60f5bb8e553edf92461 为luv马达前三个物品计算出的值，因此luv马达对应的key值就是1。*
 
-* liquidPosation -- 一个非顺序table，存储了流体名与流体位置的对应关系
+* liquidPosation -- 一个非顺序table，存储了流体名与流体存储位置（超级缸）的对应关系
 
-  *例子： solder = "2" 流体名：焊锡 位置 2*
+  	*例子： solder = "2" 流体名：焊锡 位置：2*
 
-* liquidRecipe -- 一个顺序table，存储了流体需求与位置
+* liquidRecipe -- 一个顺序table，存储了流体需求与输入仓位置
 
-  *例子：*
+  	*例子：*
   
-  *liquidRecipe[1] = {
-	{
-		type = "solder" ,
-		amount = "144",
-	},	
-	{
-		type = "lubricating_oil",
-		amount = "250",
-	}
-}*
+  	*`liquidRecipe[1] = {{type = "solder" ,amount = "144",},	{type = "lubricating_oil",amount = "250",}}`*
+  	*key值为1的需求与位置，这里是一个table的嵌套，内部为一个顺序table。key值1234分别为输入仓的位置，type为流体名，amount为流体量。*
+
+* calculateMd5 -- 计算md5使用的脚本
+	
+	*将配方所需物品放入机器人下方箱子内，运行此脚本即可获取配方md5，便于添加配方。*
+	
+	*md5值输出至/tmp/result.md5*
+	
+	
