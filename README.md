@@ -47,11 +47,11 @@
 ----
 * 机器人使用类似坐标轴的方法记录位置以及移动，通过 `require("robotCoordinateMovement")` 之后可以用 `robotCoordinateMovement.moveTo(now,target)` 来控制机器人移动。now为机器人所处坐标，target为希望机器人移动到的坐标。
 
-*例子: 机器人处于第二个输入总线下，希望机器人回归原位*
+	*例子: 机器人处于第二个输入总线下，希望机器人回归原位*
 
-*`robotCoordinateMovement.moveTo(2,1)`*
+	*`robotCoordinateMovement.moveTo(2,1)`*
 
-*坐标轴原点可以随意选取，但是本脚本集中控制自动化装配线的部分中第一个输入总线下的坐标为1*
+	*坐标轴原点可以随意选取，但是本脚本集中控制自动化装配线的部分中第一个输入总线下的坐标为1*
 
 * 其他的想到再写
 
