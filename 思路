@@ -1,0 +1,82 @@
+读取箱子前三内容物
+	pastebin get -f uzHWBWG2 getItemInInventory.lua
+	getItemInInventory.lua
+	
+	pastebin get -f EyMgjKfH /lib/getItemInInventory_function.lua
+
+计算md5值
+	安装md5库 pastebin get -f u7am6eG5 /lib/md5.lua
+	md5.sumhexa('/tmp/fullItemList.item')
+	计算出md5值
+	计算md5值脚本
+		pastebin get -f x1bThG2D calculateMd5.lua
+
+与预制md5进行对比确认配方
+		pastebin get -f SftiSiNW /home/autoAss/md5List.lua
+
+
+机器人移动====  robotCoordinateMovement.lua
+
+pastebin get -f 4jnmtHJ4 /lib/robotCoordinateMovement.lua
+
+
+转移物品 ========= moveItem.lua
+	
+pastebin get -f ZqiUm34a /lib/moveItem.lua
+
+
+机器人移动转移物品moveItem.Main()
+ 
+转移液体
+
+pastebin get -f ADwRweb6  /home/autoAss/liquidTranspetetion.lua
+
+cd autoAss
+lua
+require('liquidTranspetetion')
+liquidTranspetetion.main(1)
+
+	
+两个顺序table
+ 查找key md5List.lua
+
+第一个1 2 3 4 5对应配方md5 function 遍历table return序号
+第二个1 2 3 4 5对应流体运输
+
+对比table返回序号
+pastebin get -f uqSpPs05 /lib/compareItem.lua
+		require('compareItem')
+ compareItem.Main(fileLoc,amount,sides)
+ compareItem.Main("/tmp/fullItemList.xml",3,sides.down)
+
+
+getItemInInventory_function.writeToFile("/tmp/fullItemList.xml",3,sides.down)
+	
+	
+	fileLocation = "/tmp/fullItemList.xml"
+	count = 3
+	side = sides.down
+	md5ListLoc = "/home/md5List.lua"
+	
+compareItem.getMd5Code("/tmp/fullItemList.xml",3,sides.down)
+
+getItemInInventory_function.writeToFile("/tmp/fullItemList.xml",3,sides.down)
+	Md5code = compareItem.caculateMd5(fileLoc)
+
+getItemInInventory_function.writeToFile("/tmp/fullItemList.xml",3,sides.down)
+getItemInInventory_function.writeToFile("/tmp/fullItemList.xml",3,sides.down)
+
+
+
+
+
+主文件
+uD0iP7zq
+pastebin get -f uD0iP7zq /home/autoAss/autoAssMain.lua
+
+
+cd /home/autoAss
+lua
+require('autoAssMain')
+autoAssMain.Main()
+

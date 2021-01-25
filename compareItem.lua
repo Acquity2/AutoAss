@@ -7,9 +7,10 @@ local md5List = require('md5List')
 compareItem = {}
 
 function compareItem.caculateMd5(fileLoc)
-	local file = io.open("fileLoc","w")
+	local file = io.open(fileLoc,"r")
 	local content = file:read('*a') 
 	local MD5 = md5.sumhexa(content)
+	file:close()
 	return MD5
 end
 
@@ -23,6 +24,7 @@ function compareItem.compare(md5Code)
 	end
 	if key == nil then
 		print("No Matching MD5")
+		return nil
 	else
 		return key
 	end
