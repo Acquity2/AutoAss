@@ -16,11 +16,11 @@
 ----
 * md5List -- 一个顺序table，存储了key与对应的md5值
 
-  	*例子： 'md5List[1] = f13f3531e58bd60f5bb8e553edf92461' 为luv马达前三个物品计算出的值，因此luv马达对应的key值就是1。*
+  	*例子： `md5List[1] = f13f3531e58bd60f5bb8e553edf92461` 为luv马达前三个物品计算出的值，因此luv马达对应的key值就是1。*
 
 * liquidPosation -- 一个非顺序table，存储了流体名与流体存储位置（超级缸）的对应关系
 
-  	*例子： 'solder = "2"' 流体名：焊锡 位置：2*
+  	*例子： `solder = "2"` 流体名：焊锡 位置：2*
 
 * liquidRecipe -- 一个顺序table，存储了流体需求与输入仓位置
 
@@ -33,15 +33,15 @@
 	
 	*将配方所需物品放入机器人下方箱子内，运行此脚本即可获取配方md5，便于添加配方。*
 	
-	*md5值输出至 '/tmp/result.md5' *
+	*md5值输出至 `/tmp/result.md5` *
 	
 其他的一些事情
 ----
-* 机器人使用类似坐标轴的方法记录位置以及移动，通过 'require("robotCoordinateMovement")' 之后可以用 'robotCoordinateMovement.moveTo(now,target)' 来控制机器人移动。now为机器人所处坐标，target为希望机器人移动到的坐标。
+* 机器人使用类似坐标轴的方法记录位置以及移动，通过 `require("robotCoordinateMovement")` 之后可以用 `robotCoordinateMovement.moveTo(now,target)` 来控制机器人移动。now为机器人所处坐标，target为希望机器人移动到的坐标。
 
 *例子: 机器人处于第二个输入总线下，希望机器人回归原位*
 
-* 'robotCoordinateMovement.moveTo(2,1)' *
+*`robotCoordinateMovement.moveTo(2,1)`*
 
 *坐标轴原点可以随意选取，但是本脚本集中控制自动化装配线的部分中第一个输入总线下的坐标为1*
 
