@@ -1,5 +1,6 @@
 local md5 = require('md5')
 local io = require('io')
+local sides = require('sides')
 local getItemInInventory_function = require('getItemInInventory_function')
 	
 	getItemInInventory_function.writeToFile("/tmp/fullItemList.xml",3,sides.down)
