@@ -48,4 +48,15 @@ liquidRecipe[4] = {
 	}
 }
 
+liquidRecipe[5] = {
+	{
+		type = "solder" ,
+		amount = "576",
+	},	
+	{
+		type = "lubricating_oil",
+		amount = "250",
+	}
+}
+
 return liquidRecipe
