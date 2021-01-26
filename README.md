@@ -16,7 +16,9 @@
 
 安装
 ----
-下载文件放入任意文件夹，运行trigger.lua即开始运行。
+下载downloader.lua `pastebin get -f YyUC6kwG downloader.lua`
+
+使用downloader.lua下载文件，运行trigger.lua即开始运行。
 
 关闭软件直接重启oc机器人
 
