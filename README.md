@@ -20,6 +20,20 @@
 
 使用downloader.lua下载文件，运行trigger.lua即开始运行。
 
+启动更新程序指令:
+
+`cd /home`
+
+`downloader`
+
+无脑启动方式如下:
+
+开机后输入
+
+`cd autoAss/`
+
+`Trigger`
+
 关闭软件直接重启oc机器人
 
 需要注意的文件
