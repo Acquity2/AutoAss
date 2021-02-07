@@ -5,6 +5,6 @@ md5List[2] = "e0d9e552dd5e91e28035bb144e378f7c" --luv 泵
 md5List[3] = "4b5e7a1b5fbbed735b9480ddc5bf3e91" --luv 传送带
 md5List[4] = "bbd550477c3ad86fdc875cee30298f4d" --luv 活塞
 md5List[5] = "b56a4de92e1b06ad91c0f26c48f193f2" --luv 机械臂
-
+md5List[6] = "140ded483fb6b2369bc5f477c48122cb" --t4火箭板
 
 return md5List

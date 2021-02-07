@@ -14,14 +14,15 @@ function autoAssMain.Main()
 	Key = compareItem.Main(fileLoc,amount,side)
 	print("step.1 find matched md5")
 	if Key == nil then print("error  no matched md5") goto brea end
-	moveItem.Main()
+	if Key = 6 then
+		moveItem.rocketMain()
+	else
+		moveItem.Main()
+	end
 	liquidTranspetetion.main(Key)
-
-
-
-
-
-::brea::
+	
+	
+	::brea::
 end
 
 
