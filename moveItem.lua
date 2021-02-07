@@ -50,6 +50,7 @@ function moveItem.Main()
 end
 
 function moveItem.rocketMain()
+	print(it's a rocket recipe!!!)
 	robot.select(1)
 	local Now = 1
 	local Target = 1
