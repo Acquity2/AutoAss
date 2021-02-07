@@ -56,7 +56,7 @@ function moveItem.rocketMain()
 	local Target = 1
 	moveItem.rocketInput()
 	robot.select(1)
-	while Now < 14 do
+	while Now < 4 do
 		moveItem.Output(Now)
 		Target = Now + 1
 		robotCoordinateMovement.moveTo(Now,Target)
