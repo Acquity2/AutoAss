@@ -80,4 +80,16 @@ liquidRecipe[8] = {
 	}
 }
 
+liquidRecipe[9] = {
+	{
+		type = "coolent" ,
+		amount = "2000",
+	},
+	{
+		type = "solder" ,
+		amount = "720",
+	}
+}
+
+
 return liquidRecipe
