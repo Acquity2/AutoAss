@@ -5,9 +5,13 @@
 
 开放式电脑机器人自动化GT New Horizons装配线
 
-优势：初始化设置简单
+机器人组装
+----
+![image](https://github.com/Acquity2/AutoAss/blob/main/image/2.png)
 
-劣势：传输速度慢
+最基础的机器人需要：
+
+	1*高级机箱 1*t2APU 2*t2内存 1*luabios 1*t2硬盘 基础与高级水箱升级 基础与高级物品栏控制升级 键盘 基础显示器 磁盘 因特网卡
 
 搭建
 ----
