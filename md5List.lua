@@ -10,6 +10,12 @@ md5List[7] = "5ab8b0f60ab36f1e566ef045bc238a6d" --luv发射器
 md5List[8] = "e59106f5288ece944acc72f4df399768" --luv传感器
 md5List[9] = "d90490c09d52f1b98cacfcef4622f7c1" --luv能源仓
 md5List[10] = "928cd03f4024034adc4b0cf26a3af634" --luv动力仓
+md5List[11] = "9a2caa2bfc8a3f9c20c103e73c7ab491" --luv力场
+md5List[12] = "15f2061fac3058d64bd4207192b8fa1a" --zpm马达
+md5List[13] = "ca49dfb47ab9ed80b2b31a0619824794" --zpm泵
+md5List[14] = "57c73063db4d8eca6c565aff7a2b67ce" --zpm传送带
+md5List[15] = "42110a96c2311f974562fec362a9469a" --zpm活塞
+md5List[16] = "5086323f8362ff08fc057762d0516e0f" --zpm机械臂
 
 
 return md5List
