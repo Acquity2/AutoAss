@@ -13,6 +13,24 @@
 
 	1*高级机箱 1*t2APU 2*t2内存 1*luabios 1*t2硬盘 基础与高级水箱升级 基础与高级物品栏控制升级 键盘 基础显示器 磁盘 因特网卡
 
+机器人组装完成后放置于地面，进行openOS的安装
+
+将openOS软盘插入插槽后开机
+
+![image](https://github.com/Acquity2/AutoAss/blob/main/image/3.png)
+
+输入`install openos`
+
+![image](https://github.com/Acquity2/AutoAss/blob/main/image/4.png)
+
+如图显示后输入`y`开始安装
+
+等待安装完成后输入`y`重启电脑
+
+拔出openOS软盘，插入network软盘，重复上述过程安装network
+
+![image](https://github.com/Acquity2/AutoAss/blob/main/image/5.png)
+
 搭建
 ----
 * 搭建装配线
@@ -33,20 +51,14 @@
 
 * 启动机器人开始安装程序
 
-原理
-----
-读取箱子中前三个物品的数据，计算md5值。
-
-与预存的md5值对比获取对应key。
-
-若能取得匹配key则将物品按顺序分别输入1-14输入总线。
-
-通过key获取配方对应流体、流体需要输入的输入仓以及需要输入的量。
-
-传输流体。
-
 安装
 ----
+
+
+
+
+
+
 下载downloader.lua `pastebin get -f YyUC6kwG downloader.lua`
 
 使用downloader.lua下载文件，运行trigger.lua即开始运行。
@@ -66,6 +78,18 @@
 `Trigger`
 
 关闭软件直接重启oc机器人
+
+原理
+----
+读取箱子中前三个物品的数据，计算md5值。
+
+与预存的md5值对比获取对应key。
+
+若能取得匹配key则将物品按顺序分别输入1-14输入总线。
+
+通过key获取配方对应流体、流体需要输入的输入仓以及需要输入的量。
+
+传输流体。
 
 需要注意的文件
 ----
