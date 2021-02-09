@@ -141,7 +141,55 @@ liquidRecipe[16] = {
 	}
 }
 
- 
+liquidRecipe[17] = {
+	{
+		type = "solder" ,
+		amount = "1152",
+	}
+}
+
+liquidRecipe[18] = {
+	{
+		type = "solder" ,
+		amount = "1152",
+	}
+}
+
+liquidRecipe[19] = {
+	{
+		type = "solder" ,
+		amount = "1152",
+	}
+}
+  
+liquidRecipe[20] = {
+	{
+		type = "coolent" ,
+		amount = "4000",
+	},
+	{
+		type = "solder" ,
+		amount = "1440",
+	}
+}
+
+liquidRecipe[21] = liquidRecipe[20] 
+
+liquidRecipe[22] = liquidRecipe[6]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 return liquidRecipe

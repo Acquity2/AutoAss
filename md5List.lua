@@ -16,6 +16,12 @@ md5List[13] = "ca49dfb47ab9ed80b2b31a0619824794" --zpm泵
 md5List[14] = "57c73063db4d8eca6c565aff7a2b67ce" --zpm传送带
 md5List[15] = "42110a96c2311f974562fec362a9469a" --zpm活塞
 md5List[16] = "5086323f8362ff08fc057762d0516e0f" --zpm机械臂
-
+md5List[17] = "337e11920314e99a047b401d5a0be6fa" --zpm发射器
+md5List[18] = "f97f6e19bdde16a2b2fb08ff86f03841" --zpm传感器
+md5List[19] = "44045c8fa33377b6a170304bf0d6b1df" --zpm力场
+md5List[20] = "ee80029d8b9c8943d724dd420bf95db6" --zpm能源仓
+md5List[21] = "62caaaca385b4a36158b02090410ded2" --zpm动力舱
+md5List[22] = "b75a1e7cc53ff31e9cdad9a8e2edc909" --t5火箭板
+ 
 
 return md5List
