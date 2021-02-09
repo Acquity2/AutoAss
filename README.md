@@ -54,30 +54,47 @@
 安装
 ----
 
+* 下载downloader.lua 
 
+	输入`pastebin get -f YyUC6kwG downloader.lua`
 
+	![image](https://github.com/Acquity2/AutoAss/blob/main/image/6.png)
 
+* 使用downloader.lua下载文件
+	
+	![image](https://github.com/Acquity2/AutoAss/blob/main/image/7.png)
+	
+	输入`mkdir autoAss/`在当前目录下新建名为autoAss的文件夹
+	
+	输入`downloader`运行downloader.lua脚本
+	
+	![image](https://github.com/Acquity2/AutoAss/blob/main/image/8.png)
+	
+	运行完成后如上图所示
 
+* 运行程序
 
-下载downloader.lua `pastebin get -f YyUC6kwG downloader.lua`
+	输入`cd autoAss/`进入autoAss文件夹
+	
+	输入`Trigger`运行Trigger.lua文件
 
-使用downloader.lua下载文件，运行trigger.lua即开始运行。
-
-启动更新程序指令:
+	![image](https://github.com/Acquity2/AutoAss/blob/main/image/9.png)
+	
+更新程序指令:
 
 `cd /home`
 
 `downloader`
 
-无脑启动方式如下:
+更新完后启动程序:
 
-开机后输入
+输入
 
 `cd autoAss/`
 
 `Trigger`
 
-关闭软件直接重启oc机器人
+如需关闭程序，关闭机器人电源并重新启动即可
 
 原理
 ----
