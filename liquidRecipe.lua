@@ -175,11 +175,12 @@ liquidRecipe[20] = {
 
 liquidRecipe[21] = liquidRecipe[20] 
 
-liquidRecipe[22] = liquidRecipe[6]
-
-
-
-
+liquidRecipe[22] = = {
+	{
+		type = "solder" ,
+		amount = "72",
+	}
+}
 
 
 
