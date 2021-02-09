@@ -58,7 +58,7 @@
 
 	输入`pastebin get -f YyUC6kwG downloader.lua`
 		
-		*使用 Insert键 将剪贴板中字符粘贴至输入框
+    *使用 Insert键 将剪贴板中字符粘贴至输入框
 
 	![image](https://github.com/Acquity2/AutoAss/blob/main/image/6.png)
 
