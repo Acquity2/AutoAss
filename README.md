@@ -1,6 +1,10 @@
 # AutoAss
 ***
-开放式电脑自动化GT New Horizons装配线
+开放式电脑机器人自动化GT New Horizons装配线
+
+优势：初始化设置简单
+
+劣势：传输速度慢
 
 原理
 ----
