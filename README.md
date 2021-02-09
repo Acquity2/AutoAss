@@ -1,5 +1,8 @@
 # AutoAss
 ***
+
+![image](https://github.com/Acquity2/AutoAss/blob/main/image/1.png)
+
 开放式电脑机器人自动化GT New Horizons装配线
 
 优势：初始化设置简单
