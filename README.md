@@ -5,6 +5,8 @@
 
 开放式电脑机器人自动化GT New Horizons装配线
 
+演示视频：https://youtu.be/Lup5rIwsJN4
+
 机器人组装
 ----
 ![image](https://github.com/Acquity2/AutoAss/blob/main/image/2.png)
