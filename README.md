@@ -7,6 +7,8 @@
 
 演示视频：https://youtu.be/Lup5rIwsJN4
 
+使用服务器的演示视频：https://youtu.be/qn_5zC__oK4
+
 机器人组装
 ----
 ![image](https://github.com/Acquity2/AutoAss/blob/main/image/2.png)
